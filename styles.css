@@ -1,0 +1,194 @@
+html, *, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  color: #4b5b64; 
+}
+
+
+img {
+  width: 100%;
+  
+}
+
+.flex {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+/*Hero*/
+
+.header {
+  background-image: url("/images/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-width: 100vw;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+   
+  
+}
+
+.welcome_block {
+  max-width: 600px;
+  background-color: rgb(75, 91, 100, 0.8);
+  margin: 0 2em;
+  color: #e5ddd8;
+}
+
+/*Activities section*/
+.main { 
+  width: 100%;
+  background-color: #e0d0c9;
+  position: relative;
+  
+}
+
+.activities_section {
+  padding: 3em;
+}
+
+
+.activities {
+  min-width: 100%;  
+  margin: 4em 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+  flex-wrap: wrap;
+
+}
+
+
+.activity {
+  max-width: 300px;
+}
+
+.activity_pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: transform 500ms;
+}
+
+.activity_pic:hover {
+  transform: scale(1.2);
+  margin-bottom: 1em;
+}
+
+
+.main_title {
+  margin-top: 2em;
+  
+}
+
+
+/*Guide section*/
+.guide_section {
+  width: 100%;
+  background-color: #697278 ;
+  color: white;
+  padding: 3em;
+  
+ 
+}
+
+.guide_card {  
+  padding: 1em;
+  display: flex;
+  max-width: 500px;
+  max-height: fit-content;
+  margin: 1em auto;
+  background-color: #e0d0c9; 
+  justify-content: space-between;
+  align-items:center;
+  border-radius: 1em;
+  gap: 1em;
+  background: linear-gradient(90deg, rgba(143,114,107,1) 0%, rgba(224,208,201,1) 100%) padding-box,
+  linear-gradient(to right, #fcf5e3, #9ccca8) border-box;
+  border-radius: 1em;
+  border: 5px solid transparent;
+  transition: transform 500ms;
+  
+}
+
+.guide_card:hover {
+  background: linear-gradient(90deg, rgba(143,114,107,1) 0%, rgba(224,208,201,1) 100%) padding-box,
+  linear-gradient(to left, #fcf5e3, #9ccca8) border-box;
+  transform: scale(1.1);
+}
+
+.guide_child__1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+}
+
+.guide_section__img {
+  width: 150px;
+  height: 200px;
+}
+
+/**/
+footer {
+  width: 100%;
+}
+
+/*Waves*/
+.custom-shape-divider-bottom-1669549399 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1669549399 svg {
+  position: relative;
+  display: block;
+  width: calc(105% + 1.3px);
+  height: 48px;
+}
+
+.custom-shape-divider-bottom-1669549399 .shape-fill {
+  fill: #E0D0C9;
+}
+
+.custom-shape-divider-bottom-1669549520 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1669549520 svg {
+  position: relative;
+  display: block;
+  width: calc(109% + 1.3px);
+  height: 84px;
+}
+
+.custom-shape-divider-bottom-1669549520 .shape-fill {
+  fill: #697278;
+}
+
+
+
