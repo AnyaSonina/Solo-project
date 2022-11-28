@@ -22,6 +22,7 @@ img {
   align-items: center;
   width: 100%;
   overflow-x: hidden;
+  padding:3em;
 }
 /*Hero*/
 
@@ -35,9 +36,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-   
-  
+  position: relative; 
 }
 
 .welcome_block {
@@ -51,8 +50,7 @@ img {
 .main { 
   width: 100%;
   background-color: #e0d0c9;
-  position: relative;
-  
+  position: relative; 
 }
 
 .activities_section {
@@ -67,7 +65,6 @@ img {
   justify-content: space-around;
   gap: 1em;
   flex-wrap: wrap;
-
 }
 
 
@@ -90,8 +87,7 @@ img {
 
 
 .main_title {
-  margin-top: 2em;
-  
+  margin-top: 2em;  
 }
 
 
@@ -100,9 +96,7 @@ img {
   width: 100%;
   background-color: #697278 ;
   color: white;
-  padding: 3em;
-  
- 
+  padding: 3em; 
 }
 
 .guide_card {  
@@ -120,8 +114,7 @@ img {
   linear-gradient(to right, #fcf5e3, #9ccca8) border-box;
   border-radius: 1em;
   border: 5px solid transparent;
-  transition: transform 500ms;
-  
+  transition: transform 500ms;  
 }
 
 .guide_card:hover {
@@ -133,8 +126,7 @@ img {
 .guide_child__1 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
- 
+  justify-content: space-between; 
 }
 
 .guide_section__img {
