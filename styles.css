@@ -8,6 +8,9 @@ body {
   color: #4b5b64; 
 }
 
+.p-3 {
+  padding: 3em;
+}
 
 img {
   width: 100%;
@@ -52,10 +55,6 @@ img {
   position: relative; 
 }
 
-.activities_section {
-  padding: 3em;
-}
-
 
 .activities {
   min-width: 100%;  
@@ -95,7 +94,6 @@ img {
   width: 100%;
   background-color: #697278 ;
   color: white;
-  padding: 3em; 
 }
 
 .guide_card {  
